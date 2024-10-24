@@ -1,0 +1,97 @@
+.pousada{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    margin-right:400px;
+    color: rgb(0, 0, 53);
+    padding: 10px 40px;
+    border-radius: 80px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+.header{
+   position: fixed; /* Fixa a navbar no topo */
+   top: 0;
+   left: 0;
+   right: 0;
+   z-index: 1; /* Garante que a navbar fique acima de outros elementos */
+
+}
+ .body{
+    background-color: rgb(0, 0, 0);
+ }
+
+ .buscarbutton{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ } 
+ .logo{
+     object-fit: cover; /* Mantém a proporção da imagem */;
+ }
+ .cardbody{
+    text-align: center; 
+}
+.cardtodo{
+    padding: 10px 20px;
+    box-shadow: 0 10px 15px rgba(255, 0, 0, 0.801);
+    color: rgb(0, 0, 53);
+     width: 17%; /* ajuste a largura conforme necessário */
+    padding: 20px;
+    margin: 70px;
+    border-radius: 20px;
+}
+.nomeproduto{
+    color: beige;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.text1{
+    margin-left: 100px; /* Espaço entre os cards e o texto */
+    margin-top: 40px; /* Distância do topo */
+    max-width: 320px; /* Largura máxima do texto */
+    color: rgb(215, 237, 255);
+    font-size: 20px;
+    font-family:initial ;
+    text-shadow: 2px 2px 4px rgba(0, 140, 255, 0.801);
+}
+.container3{
+    display: flex;
+    align-items: start;
+    background-color: rgb(0, 8, 54);
+}
+.dda{
+    text-align: center;
+    background-color: rgb(0, 0, 53);
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 80px;
+    box-shadow: 0 10px 10px rgb(255, 0, 0);
+ }
+.textdlt{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: azure;
+    text-decoration: underline;
+}    
+.text2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 80px;
+    box-shadow: 0 10px 10px rgb(255, 0, 0);
+    background-color: rgb(0, 0, 53);
+    color: aliceblue;
+    text-align: center;
+    width: 1903px;
+    height: 30px;
+}
+.AVISO{
+    text-align: center;
+    background-color: rgb(251, 255, 0);
+    color: rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 80px;
+    box-shadow: 0 10px 10px rgb(0, 1, 51);
+}
+.TEXTAVISO{
+    text-align: center;
+}
+
+
